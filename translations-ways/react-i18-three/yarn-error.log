@@ -1,0 +1,49 @@
+Arguments: 
+  /usr/local/bin/node /snap/node/5953/bin/yarn.js
+
+PATH: 
+  /home/dung/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.14.2
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/dung/code-demo/translations-ways/react-i18-three/package.json: Unexpected token } in JSON at position 437
+      at JSON.parse (<anonymous>)
+      at /snap/node/5953/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/snap/node/5953/lib/cli.js:310:30)
+      at /snap/node/5953/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "translations-ways",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "dependencies": {
+      "i18next": "^21.6.16",
+      "react": "^18.0.0",
+      "react-dom": "^18.0.0",
+      "react-i18next": "^11.16.7",
+      "react-scripts": "^5.0.1"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test --env=jsdom",
+      "eject": "react-scripts eject"
+    },
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
