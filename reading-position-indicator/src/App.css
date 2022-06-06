@@ -1,0 +1,13 @@
+HTML CSS BabelResult Skip Results Iframe
+EDIT ON
+.post {
+  width: 100px;
+}
+
+.reading-progress-bar {
+  position: sticky;
+  height: 5px;
+  top: 0;
+  background-color: #ff0000;
+  background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+}
